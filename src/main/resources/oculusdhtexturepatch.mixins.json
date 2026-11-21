@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.miha.oculusdhtexturepatch.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "oculusdhtexturepatch.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "IrisLodRenderProgramMixin",
+    "StandardMacrosMixin",
+    "DHGenericTransformerMixin",
+    "DHTerrainTransformerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
